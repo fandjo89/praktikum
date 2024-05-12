@@ -1,0 +1,323 @@
+@media screen and (max-width:1025px){
+    body{
+        #autor{
+            #autortext{
+                width: 45%;
+                h2{
+                    font-size: 40px;
+                }
+                h3{
+                    font-size: 25px;
+                }
+            }
+            #autorpic{
+                margin-top: 85px;
+            }
+        }
+        #serveces{
+            #holder{
+                .servisi{
+                    p{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        #infoholder{
+            #info{
+                margin-top: 30px;
+            }
+        }
+    }
+}
+@media screen and (max-width:921px){
+    body{
+        #main{
+            #maintext{
+                margin-left: 50%;
+                h1{
+                    font-size: 50px;
+                }
+                h2{
+                    font-size: 20px;
+                }
+            }
+        }
+        #autor{
+            #autorpic{
+                margin-top: 150px;
+            }
+        }
+        #infoholder{
+            #infoForm{
+                width: 30%;
+                #name{
+                    width: 100%;
+                }
+                #subject{
+                    width: 100%;
+                }
+                #message{
+                    width: 100%;
+                }
+                #btn{
+                    width: 100%;
+                }
+            }
+        }
+        #autor{
+            #autorpic{
+                margin-top: 85px;
+            }
+        }
+    }
+}
+@media screen and (max-width:769px){
+    body{
+        header{
+            ul{
+                width: 60%;
+            }
+        }
+        #autor{
+            #autorpic{
+                margin-top: 170px;
+            }
+        }
+        #serveces{
+            height: 1100px;
+            #holder{
+                .servisi{
+                    width: 34%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:601px){
+    body{
+        #main{
+            #maintext{
+                h2{
+                    font-size: 15px;
+                }
+            }
+        }
+        #autor{
+            #autorpic{
+                margin-top: 200px;
+            }
+        }
+        #infoholder{
+            #info{
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:599px){
+    body{
+        #serveces{
+            #holder{
+                .servisi{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:578px){
+    body{
+        header{
+            ul{
+                width: 65%;
+                a{
+                    width: 20%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:573px){
+    body{
+        #serveces{
+            #holder{
+                .servisi{
+                    p{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:498px){
+    body{
+        header{
+            ul{
+                width: 60%;
+                a{
+                    width: 20%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:490px){
+    body{
+        header{
+        ul{
+            width: 60%;
+            a{
+                width: 20%;
+            }
+        }
+    }
+}
+}
+@media screen and (max-width:481px){
+    body{
+        header{
+            ul{
+                width:60%;
+            }
+        }
+        #autor{
+            #autorpic{
+                margin-top: 300px;
+            }
+        }
+        #serveces{
+            #holder{
+                .servisi{
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:455px){
+    body{
+        header{
+            ul{
+                width: 60%;
+                a{
+                    width: 20%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:441px){
+    body{
+        header{
+            flex-wrap: wrap;
+            ul{
+                width: 60%;
+            }
+        }
+    }
+}
+@media screen and (max-width:438px){
+    body{
+        header{
+            flex-wrap: wrap;
+            ul{
+                width: 55%;
+            }
+        }
+    }
+}
+@media screen and (max-width:429px){
+    body{
+        header{
+            flex-wrap: wrap;
+            ul{
+                width: 50%;
+            }
+        }
+    }
+}
+@media screen and (max-width:426px){
+    body{
+        header{
+            height: 300px;
+            flex-wrap: wrap;
+            display: inline-block;
+            text-align: center;
+            #logo{
+                height: 15px;
+                margin-left: 48%;
+                padding-top: 10px;
+            }
+            ul{
+                display: inline-block;
+                width: 25%;
+                a{
+                    li{
+                        margin-top: 15px;
+                    }
+                }
+            }
+        }
+        #main{
+            #maintext{
+                h1{
+                    font-size: 30px;
+                }
+            }
+        }
+        #autor{
+            flex-wrap: wrap;
+            #autorpic{
+                width: 90%;
+                margin: 0px auto;
+            }
+        }
+        #serveces{
+            height: 1800px;
+            #holder{
+                .servisi{
+                    width: 50%;
+                }
+            }
+        }
+        #projekatholder{
+            flex-wrap: wrap;
+            .projekti{
+                width: 51%;
+                margin-bottom: 5px;
+            }
+        }
+        #kontakt{
+            #infoholder{
+                flex-wrap: wrap;
+                #info{
+                    width: 60%;
+                    margin-bottom: 10px;
+                }
+                #infoForm{
+                    width: 60%;
+                    #message{
+                        height: 40px;
+                    }
+                }
+           }
+        }
+    }
+}
+@media screen and (max-width:321px){
+    body{
+        #infoholder{
+            #info{
+                p{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}

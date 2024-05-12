@@ -1,0 +1,260 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: indie;
+  src: url(/assets/font/IndieFlower-Regular.ttf);
+}
+header {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(57, 57, 160);
+  display: flex;
+  justify-content: space-around;
+}
+header #logo {
+  width: 50px;
+  margin-top: 20px;
+}
+header #logo a img {
+  width: 100%;
+}
+header ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  list-style-type: none;
+  margin-right: -40px;
+}
+header ul a {
+  text-decoration: none;
+}
+header ul a li {
+  color: rgb(200, 200, 200);
+}
+
+body #main {
+  width: 100%;
+  height: 700px;
+  background-image: url("img/main4.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+body #main #maintext {
+  width: 43%;
+  height: 100px;
+  margin-left: 57%;
+  color: white;
+  padding-top: 5%;
+  font-family: inco;
+}
+body #main #maintext h1 {
+  padding-bottom: 40px;
+  font-size: 60px;
+}
+body #about {
+  padding-top: 5%;
+  text-align: center;
+  font-family: indie;
+}
+body #about h3 {
+  color: black;
+  font-size: 40px;
+}
+body #about h4 {
+  color: rgb(57, 57, 160);
+  font-size: 30px;
+  padding-top: 20px;
+}
+body #autor {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+body #autor #autorpic {
+  width: 30%;
+}
+body #autor #autorpic img {
+  width: 100%;
+  border-radius: 50%;
+}
+body #autor #autortext {
+  width: 40%;
+  padding-top: 70px;
+  font-family: indie;
+}
+body #autor #autortext h2 {
+  color: black;
+  font-size: 50px;
+}
+body #autor #autortext h3 {
+  color: rgb(57, 57, 160);
+  font-size: 35px;
+  padding-top: 20px;
+}
+body #autor #autortext p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+body #serveces {
+  width: 100%;
+  height: 800px;
+  background-color: rgb(57, 57, 160);
+  margin-top: 5%;
+}
+body #serveces #servecestext {
+  padding-top: 5%;
+  text-align: center;
+}
+body #serveces #servecestext h2 {
+  color: rgb(200, 200, 200);
+  font-size: 40px;
+}
+body #serveces #servecestext h3 {
+  color: rgb(200, 200, 200);
+  font-size: 25px;
+  padding-top: 20px;
+  letter-spacing: 5px;
+}
+body #serveces #holder {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  padding-top: 60px;
+  flex-wrap: wrap;
+  margin: 0px auto;
+}
+body #serveces #holder .servisi {
+  width: 30%;
+  height: 250px;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  border: 1px solid rgb(200, 200, 200);
+  margin-top: 15px;
+  border-radius: 5%;
+  background-color: rgb(200, 200, 200);
+  font-family: quick;
+}
+body #serveces #holder .servisi i {
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+body #serveces #holder .servisi h4 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+body #projekattext {
+  padding-top: 5%;
+  text-align: center;
+}
+body #projekattext h2 {
+  color: black;
+  font-size: 40px;
+}
+body #projekattext h3 {
+  color: rgb(57, 57, 160);
+  font-size: 25px;
+  padding-top: 20px;
+  letter-spacing: 5px;
+}
+body #projekatholder {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: 0px auto;
+  padding-top: 5%;
+}
+body #projekatholder .projekti {
+  width: 40%;
+}
+body #projekatholder .projekti a img {
+  width: 100%;
+  border-radius: 10px;
+  border: 4px solid black;
+  filter: sepia(100%);
+}
+body #projekatholder .projekti a img:hover {
+  filter: none;
+  transition: 0.5s;
+}
+body #kontakt {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(57, 57, 160);
+  margin-top: 5%;
+}
+body #kontakt #kontakttext {
+  padding-top: 5%;
+  text-align: center;
+}
+body #kontakt #kontakttext h2 {
+  color: rgb(200, 200, 200);
+  font-size: 40px;
+}
+body #kontakt #kontakttext h3 {
+  color: rgb(200, 200, 200);
+  font-size: 25px;
+  padding-top: 20px;
+  letter-spacing: 5px;
+}
+body #kontakt #infoholder {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  padding-top: 5%;
+  margin: 0px auto;
+}
+body #kontakt #infoholder #info {
+  width: 40%;
+  font-family: quick;
+  font-size: 20px;
+}
+body #kontakt #infoholder #info h3 {
+  color: black;
+}
+body #kontakt #infoholder #info p {
+  color: black;
+}
+body #kontakt #infoholder #info i {
+  float: left;
+  padding-right: 3px;
+}
+body #kontakt #infoForm {
+  width: 40%;
+  resize: none;
+}
+body #kontakt #infoForm #name {
+  padding: 10px 10px;
+  margin: 5px 0px;
+}
+body #kontakt #infoForm #subject {
+  padding: 10px 10px;
+  margin: 5px 0px;
+}
+body #kontakt #infoForm #btn {
+  padding: 10px 170px;
+}
+body #kontakt #infoForm #message {
+  padding: 10px 10px;
+}
+body footer {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+body footer #iconholder {
+  display: flex;
+  justify-content: space-around;
+}
+body footer #iconholder .ikonica {
+  color: white;
+  margin-left: 30%;
+  font-size: 30px;
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */

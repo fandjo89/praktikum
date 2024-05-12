@@ -1,0 +1,215 @@
+@media screen and (max-width: 1025px) {
+  body #autor #autortext {
+    width: 45%;
+  }
+  body #autor #autortext h2 {
+    font-size: 40px;
+  }
+  body #autor #autortext h3 {
+    font-size: 25px;
+  }
+  body #autor #autorpic {
+    margin-top: 85px;
+  }
+  body #serveces #holder .servisi p {
+    font-size: 15px;
+  }
+  body #infoholder #info {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 921px) {
+  body #main #maintext {
+    margin-left: 50%;
+  }
+  body #main #maintext h1 {
+    font-size: 50px;
+  }
+  body #main #maintext h2 {
+    font-size: 20px;
+  }
+  body #autor #autorpic {
+    margin-top: 150px;
+  }
+  body #infoholder #infoForm {
+    width: 30%;
+  }
+  body #infoholder #infoForm #name {
+    width: 100%;
+  }
+  body #infoholder #infoForm #subject {
+    width: 100%;
+  }
+  body #infoholder #infoForm #message {
+    width: 100%;
+  }
+  body #infoholder #infoForm #btn {
+    width: 100%;
+  }
+  body #autor #autorpic {
+    margin-top: 85px;
+  }
+}
+@media screen and (max-width: 769px) {
+  body header ul {
+    width: 60%;
+  }
+  body #autor #autorpic {
+    margin-top: 170px;
+  }
+  body #serveces {
+    height: 1100px;
+  }
+  body #serveces #holder .servisi {
+    width: 34%;
+  }
+}
+@media screen and (max-width: 601px) {
+  body #main #maintext h2 {
+    font-size: 15px;
+  }
+  body #autor #autorpic {
+    margin-top: 200px;
+  }
+  body #infoholder #info p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 599px) {
+  body #serveces #holder .servisi {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 578px) {
+  body header ul {
+    width: 65%;
+  }
+  body header ul a {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 573px) {
+  body #serveces #holder .servisi p {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 498px) {
+  body header ul {
+    width: 60%;
+  }
+  body header ul a {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 490px) {
+  body header ul {
+    width: 60%;
+  }
+  body header ul a {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 481px) {
+  body header ul {
+    width: 60%;
+  }
+  body #autor #autorpic {
+    margin-top: 300px;
+  }
+  body #serveces #holder .servisi p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 455px) {
+  body header ul {
+    width: 60%;
+  }
+  body header ul a {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 441px) {
+  body header {
+    flex-wrap: wrap;
+  }
+  body header ul {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 438px) {
+  body header {
+    flex-wrap: wrap;
+  }
+  body header ul {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 429px) {
+  body header {
+    flex-wrap: wrap;
+  }
+  body header ul {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 426px) {
+  body header {
+    height: 300px;
+    flex-wrap: wrap;
+    display: inline-block;
+    text-align: center;
+  }
+  body header #logo {
+    height: 15px;
+    margin-left: 48%;
+    padding-top: 10px;
+  }
+  body header ul {
+    display: inline-block;
+    width: 25%;
+  }
+  body header ul a li {
+    margin-top: 15px;
+  }
+  body #main #maintext h1 {
+    font-size: 30px;
+  }
+  body #autor {
+    flex-wrap: wrap;
+  }
+  body #autor #autorpic {
+    width: 90%;
+    margin: 0px auto;
+  }
+  body #serveces {
+    height: 1800px;
+  }
+  body #serveces #holder .servisi {
+    width: 50%;
+  }
+  body #projekatholder {
+    flex-wrap: wrap;
+  }
+  body #projekatholder .projekti {
+    width: 51%;
+    margin-bottom: 5px;
+  }
+  body #kontakt #infoholder {
+    flex-wrap: wrap;
+  }
+  body #kontakt #infoholder #info {
+    width: 60%;
+    margin-bottom: 10px;
+  }
+  body #kontakt #infoholder #infoForm {
+    width: 60%;
+  }
+  body #kontakt #infoholder #infoForm #message {
+    height: 40px;
+  }
+}
+@media screen and (max-width: 321px) {
+  body #infoholder #info p {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
